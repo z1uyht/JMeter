@@ -1,7 +1,9 @@
 # Kiểm thử sử dụng JMeter
 - Trang web kiểm thử: http://localhost/team19.thoitrangstore.com/
 . Kết quả kiểm thử
-Phiên kiểm thử 1: result2.jtl – Kịch bản hợp lệ
+#Phiên kiểm thử 1: result2.jtl – Kịch bản hợp lệ
+![image](https://github.com/user-attachments/assets/9529d7a6-3b29-402e-986f-cc86c9e196eb)
+
  
 - Thời gian kiểm thử: Khoảng 1 phút
 - Số lượng yêu cầu: 250
@@ -18,6 +20,8 @@ Nhận xét:
 - Một số lỗi 404 Not Found xuất hiện ở bước Xem Sản Phẩm, cho thấy trang sản phẩm chưa tồn tại hoặc đường dẫn sai.
  
 Phiên kiểm thử 2: result.jtl – Kịch bản bị lỗi cấu hình
+![image](https://github.com/user-attachments/assets/a70de92c-ae58-40e2-8da0-37f41abed364)
+
  
 - Thời gian kiểm thử: Khoảng 1 phút
 - Số lượng yêu cầu: 250
