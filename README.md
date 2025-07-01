@@ -1,6 +1,23 @@
 # Kiểm thử sử dụng JMeter
 - Trang web kiểm thử: http://localhost/team19.thoitrangstore.com/
-. Kết quả kiểm thử
+
+1. Giới thiệu
+Apache JMeter là một công cụ kiểm thử mã nguồn mở được sử dụng rộng rãi để đo hiệu năng và khả năng chịu tải của các ứng dụng web. Trong báo cáo này, chúng tôi tiến hành kiểm thử hiệu năng cho website thoitrangstore.com thông qua hai kịch bản khác nhau.
+
+2. Mục tiêu
+- Đo thời gian phản hồi (response time), độ trễ (latency) và tỷ lệ thành công/thất bại của các yêu cầu HTTP.
+- Kiểm tra tính ổn định của hệ thống khi có nhiều người dùng truy cập đồng thời.
+- Ghi nhận các lỗi xảy ra trong quá trình kiểm thử để cải thiện chất lượng hệ thống.
+
+3. Môi trường và công cụ
+- Công cụ kiểm thử: Apache JMeter
+- Tệp kịch bản: thoitrang.jmx, Summary Report.jmx
+- Tệp dữ liệu người dùng: users.csv
+- Loại kiểm thử: Load Testing
+- Số luồng (threads): Tối đa 2 luồng đồng thời
+- Tổng số request mỗi phiên: 250 yêu cầu
+
+4.Kết quả kiểm thử
 
 Phiên kiểm thử 1: result2.jtl – Kịch bản hợp lệ
 ![image](https://github.com/user-attachments/assets/9529d7a6-3b29-402e-986f-cc86c9e196eb)
